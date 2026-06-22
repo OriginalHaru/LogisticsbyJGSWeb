@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 94%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 94%;
+    --primary: 199 73% 58%;
+    --primary-foreground: 0 0% 4%;
+    --muted: 0 0% 9%;
+    --muted-foreground: 0 0% 42%;
+    --border: 0 0% 13%;
+    --shadow-glow: 0 0 32px hsl(199 73% 58% / 0.22);
+    --shadow-card: 0 2px 16px hsl(0 0% 0% / 0.40);
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+@layer utilities {
+  .card-surface {
+    @apply bg-card border border-border/60;
+    box-shadow: var(--shadow-card);
+  }
+  .card-surface-hover {
+    @apply hover:bg-[hsl(0_0%_10%)] hover:border-[hsl(199_73%_58%/0.25)] transition-all duration-200 ease-out;
+  }
+  .glow-border {
+    @apply border border-[hsl(199_73%_58%/0.3)];
+    box-shadow: var(--shadow-glow);
+  }
+  .icon-bg-primary {
+    background: linear-gradient(135deg, hsl(199 73% 58% / 0.18), hsl(210 80% 52% / 0.08));
+    @apply text-primary;
+  }
+  .animate-fade-in { animation: fadeIn 0.35s ease-out; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 99px; }
