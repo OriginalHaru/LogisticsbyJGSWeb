@@ -36,7 +36,7 @@ export default function Contacto() {
             <div className="space-y-4 text-sm text-white/60 leading-relaxed">
               <p>Logistics by JGS is a <strong className="text-white/80">shipping, courier, and international logistics</strong> service focused on logistics intermediation between Argentina and China. We operate under the legal entity JGS Trade Limited, registered in Hong Kong (Company Registration No. 80640804).</p>
               <p>Our team manages the entire import logistics process: from supplier search and validation in China, goods pickup, customs clearance, international transport (sea or air), to final delivery in Argentina.</p>
-              <p>We offer modalities tailored to every need: Simplified Regime for small shipments via commercial courier, General Regime for formal larger-volume imports, Import Pool for consolidating cargo among multiple importers, and Sourcing services to find and negotiate with suppliers at origin.</p>
+              <p>We offer modalities tailored to every need: Simplified Scheme for small shipments via commercial courier, General Scheme for formal larger-volume imports, Import Pool for consolidating cargo among multiple importers, and Sourcing services to find and negotiate with suppliers at origin.</p>
             </div>
           </div>
         </div>

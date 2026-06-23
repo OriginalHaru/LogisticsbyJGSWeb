@@ -4,8 +4,8 @@ import PublicLayout from '@/components/landing/PublicLayout';
 import { PORTAL_URL } from '@/config';
 
 const PLANS = [
-  { icon: Package, title: 'Simplified Regime', desc: 'Commercial courier logistics for small imports.', features: ['Packages up to 50 kg', 'Door-to-door shipping', 'Real-time tracking', 'Simplified customs clearance', 'Home delivery in Argentina'], highlighted: false },
-  { icon: Ship, title: 'General Regime', desc: 'Formal import of larger volumes with full customs clearance.', features: ['No weight or volume limits', 'Sea or air freight', 'Formal customs clearance', 'Full document management', 'Cargo insurance included', 'Customs broker coordination'], highlighted: true },
+  { icon: Package, title: 'Simplified Scheme', desc: 'Commercial courier logistics for small imports.', features: ['Packages up to 50 kg', 'Up to USD 3,000 in merchandise', 'Door-to-door shipping', 'Real-time tracking', 'Simplified customs clearance', 'Home delivery in Argentina'], highlighted: false },
+  { icon: Ship, title: 'General Scheme', desc: 'Formal import of larger volumes with full customs clearance.', features: ['No weight or volume limits', 'Sea or air freight', 'Formal customs clearance', 'Full document management', 'Cargo insurance included', 'Customs broker coordination'], highlighted: true },
   { icon: Users, title: 'Import Pool', desc: 'LCL/FCL consolidation for groups of importers.', features: ['Shared or full container', 'Reduced per-unit costs', 'Multi-importer coordination', 'Unified customs clearance', 'Distribution at destination'], highlighted: false },
 ];
 

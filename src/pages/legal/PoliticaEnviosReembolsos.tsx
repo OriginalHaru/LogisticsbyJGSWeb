@@ -23,9 +23,9 @@ export default function PoliticaEnviosReembolsos() {
               <h2 className="text-lg font-semibold text-white mb-3">2. Estimated shipping times</h2>
               <p>Estimated transit times vary by modality:</p>
               <ul className="list-disc list-inside mt-2 space-y-1">
-                <li><strong className="text-white/80">Simplified Regime (courier):</strong> 15 to 30 business days from dispatch at origin.</li>
-                <li><strong className="text-white/80">General Regime (sea freight):</strong> 45 to 75 business days from dispatch at origin.</li>
-                <li><strong className="text-white/80">General Regime (air freight):</strong> 10 to 20 business days from dispatch at origin.</li>
+                <li><strong className="text-white/80">Simplified Scheme (courier):</strong> 15 to 30 business days from dispatch at origin.</li>
+                <li><strong className="text-white/80">General Scheme (sea freight):</strong> 45 to 75 business days from dispatch at origin.</li>
+                <li><strong className="text-white/80">General Scheme (air freight):</strong> 10 to 20 business days from dispatch at origin.</li>
                 <li><strong className="text-white/80">Import Pool:</strong> variable depending on consolidation, generally 50 to 90 business days.</li>
               </ul>
               <p className="mt-2">These timeframes are estimates and may vary due to factors beyond JGS Trade Limited's control, including customs delays, weather conditions, port congestion, or force majeure. JGS Trade Limited does not guarantee exact delivery dates.</p>

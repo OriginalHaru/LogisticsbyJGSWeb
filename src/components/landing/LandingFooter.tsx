@@ -19,8 +19,8 @@ export default function LandingFooter() {
           <div className="space-y-3">
             <h4 className="text-sm font-semibold text-white/80 uppercase tracking-wider">Services</h4>
             <ul className="space-y-2 text-sm text-white/50">
-              <li><Link to="/#services" className="hover:text-white transition-colors">Simplified Regime</Link></li>
-              <li><Link to="/#services" className="hover:text-white transition-colors">General Regime</Link></li>
+              <li><Link to="/#services" className="hover:text-white transition-colors">Simplified Scheme</Link></li>
+              <li><Link to="/#services" className="hover:text-white transition-colors">General Scheme</Link></li>
               <li><Link to="/#services" className="hover:text-white transition-colors">Import Pool</Link></li>
               <li><Link to="/#services" className="hover:text-white transition-colors">Sourcing</Link></li>
             </ul>

@@ -15,7 +15,7 @@ export default function TerminosYCondiciones() {
             </section>
             <section>
               <h2 className="text-lg font-semibold text-white mb-3">2. Description of services</h2>
-              <p>JGS Trade Limited provides international logistics intermediation services, including but not limited to: commercial courier shipment management (Simplified Regime), formal import with customs clearance (General Regime), cargo consolidation for groups of importers (Import Pool), and supplier search and validation in China (Sourcing).</p>
+              <p>JGS Trade Limited provides international logistics intermediation services, including but not limited to: commercial courier shipment management (Simplified Scheme), formal import with customs clearance (General Scheme), cargo consolidation for groups of importers (Import Pool), and supplier search and validation in China (Sourcing).</p>
               <p className="mt-2">Services are provided through the web platform and are primarily aimed at importers and brands in Argentina that need to manage shipments from China.</p>
             </section>
             <section>

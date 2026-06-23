@@ -5,8 +5,8 @@ import PublicLayout from '@/components/landing/PublicLayout';
 import { PORTAL_URL } from '@/config';
 
 const SERVICES = [
-  { icon: Package, title: 'Simplified Regime', desc: 'Commercial courier logistics for small imports. Ideal for entrepreneurs and brands starting out with small volumes.', target: 'Packages up to 50 kg' },
-  { icon: Ship, title: 'General Regime', desc: 'Formal import logistics for larger volumes. Full management of customs clearance, sea/air freight, and delivery to destination.', target: 'Large-scale imports' },
+  { icon: Package, title: 'Simplified Scheme', desc: 'Commercial courier logistics for small imports. Ideal for entrepreneurs and brands starting out with small volumes.', target: 'Up to 50 kg / USD 3,000' },
+  { icon: Ship, title: 'General Scheme', desc: 'Formal import logistics for larger volumes. Full management of customs clearance, sea/air freight, and delivery to destination.', target: 'Large-scale imports' },
   { icon: Users, title: 'Import Pool', desc: 'LCL/FCL consolidation for groups of importers. Share a container with other importers and reduce per-unit costs.', target: 'Groups of importers' },
   { icon: Search, title: 'Sourcing', desc: 'Supplier search and validation in China. Price negotiation, quality control, and sample coordination.', target: 'New products' },
 ];
@@ -106,8 +106,8 @@ export default function Landing() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { icon: Package, title: 'Simplified Regime', desc: 'Commercial courier for small shipments from China.', glow: false },
-              { icon: Ship, title: 'General Regime', desc: 'Formal import of larger volumes with full customs clearance.', glow: true },
+              { icon: Package, title: 'Simplified Scheme', desc: 'Commercial courier for small shipments from China.', glow: false },
+              { icon: Ship, title: 'General Scheme', desc: 'Formal import of larger volumes with full customs clearance.', glow: true },
               { icon: Users, title: 'Import Pool', desc: 'Consolidate your cargo with other importers and save on costs.', glow: false },
             ].map(card => (
               <div key={card.title} className={`card-surface rounded-2xl p-7 text-center card-surface-hover ${card.glow ? 'glow-border' : ''}`}>
