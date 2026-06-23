@@ -1,7 +1,7 @@
-// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+
 export default defineConfig({
-  base: '/', // si el repo se llama originalharu.github.io
-  // o
-  base: '/nombre-del-repo/', // si es un repo cualquiera
+  base: '/',
   plugins: [react()],
 })
